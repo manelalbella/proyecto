@@ -17,7 +17,7 @@ Desde la capeta raíz abrir dos terminales y ejecutar los siguientes comandos.
 1. Servidor node (backend)
 
 ```bash
-node backend/server.js
+cd backend && node server.js
 ```
 
 El servidor backend se ha abierto en la dirección [http://localhost:3000](http://localhost:3000/)
