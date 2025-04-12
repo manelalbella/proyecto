@@ -13,8 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnComprar = document.getElementById("btn-comprar");
     if (btnComprar) {
         btnComprar.addEventListener("click", comprar);
-    } else {
-        console.warn("⚠️ El botón 'Comprar' no se encontró. Verifica el HTML.");
     }
 });
 

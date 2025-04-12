@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const user = JSON.parse(localStorage.getItem("user"));
+
+    if (user) {
+        document.getElementById("name").value = user.firstName + " " + user.lastName;
+        document.getElementById("email").value = user.email;
+    }
+});
+
 document.getElementById("contact-form").addEventListener("submit", async function(event) {
     event.preventDefault(); 
 
