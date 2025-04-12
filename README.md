@@ -4,10 +4,24 @@ Guía de pasos a seguir para poder arrancar el proyecto
 
 ## Instalación
 
-Instalar node.js en caso de que no lo tengas instalado en tu equipo. Si ya lo tienes puedes omitir este paso.
+1. Instalar node.js en caso de que no lo tengas instalado en tu equipo. Si ya lo tienes puedes omitir este paso.
 
 ```bash
 sudo apt update && sudo apt install nodejs npm
+```
+
+2. Instalar las dependencias
+
+Para el backend:
+
+```bash
+cd backend && npm install
+```
+
+Para el frontend:
+
+```bash
+cd frontend && npm install
 ```
 
 ## Inciar proyecto
