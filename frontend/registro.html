@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <h2 style="text-align: center;">Registro</h2>
+
+    <form id="register-form" style="max-width: 600px; margin: 0 auto;">
+        <input type="text" id="firstName" placeholder="Nombre" required />
+        <input type="text" id="lastName" placeholder="Apellidos" required />
+        <input type="text" id="email" placeholder="Email" required />
+        <input type="password" id="password" placeholder="Contraseña" required />
+        <button type="submit" style="width: 100%;">Registrarse</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script src="./src/register.js"></script>
+</body>
+
+</html>
